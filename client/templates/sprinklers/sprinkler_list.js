@@ -1,0 +1,1 @@
+'use strict';/* Helper functions for the sprinklerList template */Template.sprinklerList.helpers(	{		/*		 * Gets all sprinklers		 *		 * @returns {object} All sprinklers		 */		sprinklers: function() {			return Sprinklers.find();		}	});
